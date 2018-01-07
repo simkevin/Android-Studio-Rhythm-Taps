@@ -7,35 +7,35 @@
     tools:context="com.example.kevin.rhythmtaps.DisplayLevelsActivity">
 
     <Button
-        android:id="@+id/button2"
+        android:id="@+id/beginner"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:onClick="openBeginner"
         android:text="Beginner"
         android:textColor="@android:color/holo_green_light"
         android:textSize="30sp"
-        app:layout_constraintBottom_toTopOf="@+id/button3"
+        app:layout_constraintBottom_toTopOf="@+id/intermediate"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
     <Button
-        android:id="@+id/button3"
+        android:id="@+id/intermediate"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:onClick="openIntermediate"
         android:text="Intermediate"
         android:textColor="@android:color/holo_orange_light"
         android:textSize="30sp"
-        app:layout_constraintBottom_toTopOf="@+id/button4"
+        app:layout_constraintBottom_toTopOf="@+id/advanced"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/button2" />
+        app:layout_constraintTop_toBottomOf="@+id/beginner" />
 
     <Button
-        android:id="@+id/button4"
+        android:id="@+id/advanced"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:onClick="openAdvanced"
@@ -46,5 +46,5 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/button3" />
+        app:layout_constraintTop_toBottomOf="@+id/intermediate" />
 </android.support.constraint.ConstraintLayout>
