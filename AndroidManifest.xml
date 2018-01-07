@@ -20,15 +20,27 @@
             android:name=".DisplayLevelsActivity"
             android:label="Levels"
             android:parentActivityName=".HomeScreenActivity" />
-        <activity android:name=".DisplayBeginnerActivity"
+        <activity
+            android:name=".DisplayBeginnerActivity"
             android:label="Beginner Levels"
             android:parentActivityName=".DisplayLevelsActivity" />
-        <activity android:name=".DisplayIntermediateActivity"
+        <activity
+            android:name=".DisplayIntermediateActivity"
             android:label="Intermediate Levels"
             android:parentActivityName=".DisplayLevelsActivity" />
-        <activity android:name=".DisplayAdvancedActivity"
+        <activity
+            android:name=".DisplayAdvancedActivity"
             android:label="Advanced Levels"
-            android:parentActivityName=".DisplayLevelsActivity" >
+            android:parentActivityName=".DisplayLevelsActivity" />
+        <activity android:name=".Level1Activity"
+            android:label="Level 1"
+            android:parentActivityName=".DisplayBeginnerActivity" />
+        <activity android:name=".DisplayRightActivity"
+            android:label=""
+            android:parentActivityName=".DisplayBeginnerActivity" />
+        <activity android:name=".DisplayWrongActivity"
+            android:label=""
+            android:parentActivityName=".DisplayBeginnerActivity" >
         </activity>
     </application>
 
